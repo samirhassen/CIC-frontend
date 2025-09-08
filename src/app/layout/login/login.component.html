@@ -6,11 +6,18 @@
    <button
  mat-stroked-button
   class="microsoft-btn"
-   (click)="signInWithMicrosoft()"
+   (click)="login()"
 >
   <img src="assets/microsoft-icon.svg" alt="Microsoft Icon" class="ms-icon" />
   <span class="ms-icon">Sign in with Microsoft</span>
 </button>
 
+<button
+ mat-stroked-button
+  class="microsoft-btn" (click)="signInWithUsername()">
+  <span class="ms-icon">Login</span>
+</button>
   </mat-card>
 </div>
+
+

@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:demo_19": "node dist/demo_19/server/server.mjs"
+    "serve:ssr:cic_portal": "node dist/cic_portal/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -23,9 +23,11 @@
     "@angular/platform-server": "^19.2.0",
     "@angular/router": "^19.2.0",
     "@angular/ssr": "^19.2.7",
-    "@azure/msal-angular": "^4.0.17",
-    "@azure/msal-browser": "^4.19.0",
+    "@azure/msal-angular": "^4.0.19",
+    "@azure/msal-browser": "^4.21.1",
     "express": "^4.18.2",
+    "powerbi-client": "^2.23.1",
+    "powerbi-client-angular": "^3.0.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "demo_19": {
+    "cic_portal": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/demo_19",
+            "outputPath": "dist/cic_portal",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "demo_19:build:production"
+              "buildTarget": "cic_portal:build:production"
             },
             "development": {
-              "buildTarget": "demo_19:build:development"
+              "buildTarget": "cic_portal:build:development"
             }
           },
           "defaultConfiguration": "development"
